@@ -1,112 +1,83 @@
-Project Management System User Manual
-Empowers users to create, manage, and collaborate on projects with robust features for authentication, team collaboration, subscription, payments, and real-time communication.
+# Business Model User Manual for Project Management System
 
-Table of Contents
-Introduction
+## Introduction
 
-Getting Started: User Account
+This document explains how the business model drives user roles, subscription plans, payment integration, project limits, and collaboration within the project management system.
 
-Main Dashboard
+---
 
-Projects & Task Management
+## User Roles and Permissions
 
-Team Collaboration
+- **Free Users:** Can create up to 3 projects and access core collaboration features.
+- **Paid Subscribers (Monthly/Annual):** Unlimited projects and premium features.
+- **Team Leads:** Manage projects, invite users, and control team settings.
+- **Team Members:** Collaborate on tasks, issues, and communicate as team members.
 
-Subscription & Payments
+---
 
-Security & Privacy
+## Registration and Authentication
 
-Troubleshooting & Help
+- Register using name, email, and password.
+- Login with registered credentials to access dashboards and projects.
+- Roles and restrictions apply based on subscription plans.
 
-Additional Resources
+---
 
-Introduction
-This system enables efficient project management: create projects, assign tasks, invite users, manage subscriptions, and communicate with your team easily.
+## Project Creation and Limits
 
-Getting Started: User Account
-Create an Account
-Go to registration.
+- Create projects by specifying name, description, category, and tags.
+- Free plan restricts project creation beyond 3 projects.
+- Paid plans remove such limits and unlock advanced features.
 
-Enter full name, email, password.
+---
 
-Verify email if invited.
+## Project Dashboard and Filtering
 
-Log in to access dashboard.
+- Filter projects by category (Full Stack, Frontend, Backend) and tags (React, Next.js, etc.).
+- Use search to quickly find projects.
 
-Login
-Enter email and password at the login page.
+---
 
-Access your personalized dashboard.
+## Team Collaboration
 
-Main Dashboard
-View all projects and statuses.
+- Team leads can invite users via email.
+- Invitations grant access to project teams.
+- Team chat supports real-time communication.
 
-Use sidebar/menu to access projects, teams, issues, chats, subscription, account settings.
+---
 
-Projects & Task Management
-Create New Project
-Click “Create Project.”
+## Subscription and Upgrade
 
-Enter project name, description, select technology and type.
+- Upgrade subscription via the dashboard’s Upgrade page.
+- Payments securely processed using Razorpay gateway.
+- Subscription status governs plan features and limits.
 
-Project added (limited by subscription).
+---
 
-View & Filter Projects
-Use search/filters to find projects by stack, tags, technology.
+## Task and Issue Management
 
-Issue Management
-Open project > create new issue.
+- Kanban board layout with columns: To-do, In Progress, Done.
+- Task assignments and status updates occur dynamically.
 
-Assign issues, change status (To-do, In Progress, Done).
+---
 
-Comment for collaboration.
+## Business & Security Enforcement
 
-Team Collaboration
-Invite Members
-Go to project > Team > Invite by email.
+- Project and feature restrictions based on user role and subscription.
+- Secure JWT authentication and encrypted passwords.
+- Payment and data security standards followed.
 
-Invited members join via email link.
+---
 
-Assign Roles
-Set Team Lead or Member per project.
+## Support
 
-Leads can invite/manage settings.
+- Billing or subscription issues directed to support.
+- Account, invitation, and access troubles resolved by admins or leads.
 
-Real-Time Communication
-Use chat for group discussion.
+---
 
-Comment on issues for contextual feedback.
+---
 
-Subscription & Payments
-Plans
-Free: Up to 3 projects.
+## Contact
 
-Paid: Unlimited projects.
-
-Upgrade Subscription
-Go to Subscription section.
-
-Choose a plan, pay via Razorpay.
-
-Unlock full features after successful payment.
-
-Security & Privacy
-Passwords stored securely.
-
-JWT authentication secures requests.
-
-Only authenticated users can access sensitive data.
-
-Permissions based on user roles and subscription.
-
-Troubleshooting & Help
-Login issues: Use reset password.
-
-Project limit reached: Upgrade subscription.
-
-Invitation issues: Recheck spam or contact admin.
-
-Payment problems: Verify details and retry.
-
-Additional Resources
-For further API/documentation or support, visit the support site or project docs. Community help and updates are available regularly.
+For assistance, contact: [your-email@example.com]
