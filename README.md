@@ -80,4 +80,4 @@ This document explains how the business model drives user roles, subscription pl
 
 ## Contact
 
-For assistance, contact: [your-email@example.com]
+For assistance, contact: abc@gmail.com
