@@ -1,94 +1,102 @@
-# Project Management System: Business Model User Manual
+# Project Management System — Business Model User Manual
 
 ## Overview
 
-This guide introduces the business model powering the Project Management System, explaining how features, roles, subscription plans, payments, and collaboration flow together to deliver user value and support business goals.
+This user manual provides detailed insights into the business model behind the Project Management System. It guides users through the features designed to support subscription plans, user roles, project limits, payments, and collaboration workflows.
 
 ---
 
-## Roles & Subscription Plans
+## User Roles & Subscription Plans
 
-- **Free Users:** Create up to 3 active projects. Core features for team and workflow management.
-- **Paid Subscribers:** Unlimited project creation and access to premium tools (Monthly/Annual plans).
-- **Team Leads:** Full control over project lifecycle, team invitations, and settings.
-- **Team Members:** Contribute to tasks, discussions, and project progression.
+- **Free Users:** Access to core features with a limit of **3 projects**.
+- **Paid Subscribers:** Unlimited projects and advanced features under Monthly and Annual plans.
+- **Team Leads:** Full project management, user invitations, and team control.
+- **Team Members:** Participate in tasks, discussions, and project workflows.
 
 ---
 
 ## Getting Started
 
-### Register & Login
+### Registration & Login
 
-- Use the registration screen to sign up with name, email, and password.
+- Sign up by entering your full name, email, and secure password.
+- Use the login to access your dashboard and project workspace.
+
 ![Register Screen](./Screenshot-2025-09-26-211435.jpg)
-- Log in to view the dashboard and access projects, teams, and account settings.
 
 ---
 
-## Project Creation & Management
+## Project Management & Filters
 
-- Start a new project using a clear, simple form for name, description, category, and tags.
-![Create Project Dialog](./Screenshot-2025-09-26-211716.jpg)
-- Filter projects by category (full stack, frontend, backend) and technology tags (React, Next.js, etc.).
+- Create new projects with detailed inputs like name, description, category, and tags.
+
+![Create New Project](./Screenshot-2025-09-26-211716.jpg)
+
+- Filter projects by category (Full Stack, Frontend, Backend) and tags (React, Next.js etc.) for easy navigation.
+
 ![Project Filters](./Screenshot-2025-09-26-211532.jpg)
-- Only users within plan limits can create additional projects.
-![Filtered Projects](./Screenshot-2025-09-26-211732.jpg)
+
+- Search functionality allows quick retrieval of your projects.
+
+![Project List](./Screenshot-2025-09-26-211732.jpg)
 
 ---
 
 ## Team Collaboration
 
-- Team leads invite contributors by email.
-![Invite User](./Screenshot-2025-09-26-211748.jpg)
-- Team workspace displays project lead, members, current status, and real-time chat for seamless interaction.
+- Invite users to projects by entering their email addresses.
+
+![Invite User Dialog](./Screenshot-2025-09-26-211748.jpg)
+
+- Monitor team members, project lead, and current status.
+
 ![Project Details & Chat](./Screenshot-2025-09-26-211553.jpg)
+
+- Use real-time chat for seamless team communication.
 
 ---
 
 ## Subscription & Payments
 
-- Upgrade subscriptions in the dashboard for expanded project limits.
-- Payments processed securely via Razorpay.
-- Plan upgrades are reflected instantly in available features.
+- Upgrade your plan anytime to unlock unlimited projects and premium features.
+- Payments are processed securely via Razorpay.
+
+![Subscription & Pricing](./Screenshot-2025-09-26-221117.jpg)
 
 ---
 
-## Task & Issue Workflow
+## Task & Workflow Management
 
-- Manage issues with Kanban boards (To-do, In Progress, Done). Assign tasks and update status collaboratively.
-![Issue Board](./Screenshot-2025-09-26-211553.jpg)
+- Organize project issues in Kanban-style boards: To-do, In Progress, Done.
+- Assign and update tasks dynamically.
 
----
-
-## Business Logic Enforcement
-
-- The UI makes plan limits clear: disabled buttons and alerts when project quota is reached.
-- Role and plan assignment controls access to sensitive features and team management functions.
-- Real-time status helps users know when they need to upgrade for continued productivity.
+![Task Board](./Screenshot-2025-09-26-211553.jpg)
 
 ---
 
-## Security & Compliance
+## Business Rules & Security
 
-- All authentication is handled by secure JWT tokens.
-- Passwords are encrypted.
-- Payments and user data comply with industry standards.
+- Project limits enforced based on your subscription tier.
+- Role-based permission system controls access to sensitive features.
+- Secure authentication with JWT and encrypted passwords.
+- PCI-compliant payment processing.
 
 ---
 
 ## Support
 
-- Reach out for billing, invitation, or access help via support links in your dashboard.
-- Admins/team leads can assist with invitation and onboarding issues.
+- For billing or subscription help, use dashboard support channels.
+- Contact your admin or team lead for access or invitation issues.
 
 ---
 
-## Contact
+## Contact Information
 
-Questions or feature requests?  
-**Email:** [your@email.com]  
-**GitHub Issues:** [Link to issues page]
+For assistance or feedback:  
+**Email:** [your-email@example.com]  
+**GitHub Issues:** [Link to your repo’s issue tracker]
 
 ---
 
-This manual ensures smooth onboarding while communicating how the business model of the platform supports both users and commercial success!
+Thank you for using our Project Management System. We are committed to helping your team succeed and grow through our business model and technology.
+
